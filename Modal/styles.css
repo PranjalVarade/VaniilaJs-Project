@@ -1,0 +1,57 @@
+    body {
+        background-color: #faf1e6;
+    }
+    
+    .modalFirstPage {
+        background-color: #e4efe7;
+        position: fixed;
+        height: 200px;
+        width: 400px;
+        top: 200px;
+        left: 40%;
+        border: 1px solid #064420;
+        border-radius: 10px;
+    }
+    
+    h1 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .btn {
+        margin-left: 35%;
+        margin-top: 10%;
+        font-size: 15px;
+        background-color: #064420;
+        color: #faf1e6;
+        border-radius: 5px;
+    }
+    
+    .modalCon {
+        position: fixed;
+        background-color: #e4efe7;
+        height: 200px;
+        width: 400px;
+        place-items: center;
+        border: 1px solid #064420;
+        border-radius: 10px;
+        z-index: -10;
+        top: 200px;
+        left: 40%;
+        visibility: hidden;
+    }
+    
+    h3 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .closeBtn {
+        margin-left: 40%;
+    }
+    
+    .showModalcon {
+        transition-duration: 0.5s;
+        z-index: 10;
+        visibility: visible;
+    }

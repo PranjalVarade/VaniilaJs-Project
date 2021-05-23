@@ -1,0 +1,17 @@
+.container {
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.showColor {
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    top: 20%;
+    font-size: 20px;
+    border: 0px;
+}

@@ -1,0 +1,73 @@
+body {
+    background: #e0aaff;
+}
+
+.header {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    border-bottom: 3px solid #240046;
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+    color: #5a189a;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.userPersonalInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.singleReview {
+    position: relative;
+    top: 50%;
+    left: 32%;
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    background: #c77dff;
+    border: 6px solid #240046;
+    border-radius: 10px;
+}
+
+.imgCon {
+    width: 100px;
+    margin-top: 20px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.review {
+    margin: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: #5a189a;
+    color: #FFFFFF;
+}
+
+.renderButton {
+    position: relative;
+    top: 5%;
+    left: 30%;
+    display: flex;
+    align-content: center;
+}

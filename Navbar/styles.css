@@ -1,0 +1,37 @@
+.header {
+    background-color: chartreuse;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.pageLinks {
+    text-align: center;
+    visibility: hidden;
+    height: 0;
+}
+
+.link {
+    color: rgb(5, 37, 27);
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: rgb(250, 168, 168);
+}
+
+.page-links-visibile {
+    visibility: visible;
+    height: 30px;
+}
+
+.headerNav {
+    padding: 10px;
+}
